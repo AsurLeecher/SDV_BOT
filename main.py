@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Owner's Telegram ID (replace with your actual ID)
-OWNER_ID = int(os.getenv("OWNER_ID", 6175650047))  # Use environment variable for security
+OWNER_ID = int(os.getenv("OWNER_ID", 6952370497))  # Use environment variable for security
 is_function_enabled = False  # Global flag for owner-only mode
 enabled_handlers = {"pw": False, "kgs": False}  # Specific handler access flags
 
